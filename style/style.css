@@ -1,0 +1,54 @@
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+   font-size: 25px;
+}
+
+body {
+	background: url('../img/body_img.jpg') 0 0 no-repeat;
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+#connect {
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	width: 60px;
+}
+ .conn_list li {
+ 	margin-top: 10px;
+ }
+	
+.conn_list .icon {
+	color: #4D6452;
+}
+
+.conn_list .icon:hover {
+	font-weight: bold;
+}
+
+#welcome {
+	margin: 250px auto;
+	width: 240px;
+}
+#welcome a {
+	width: 350px;
+	height: 80px;
+	display: block;
+	background: #C69571;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 30px;
+	color: #ECDDD2;
+	font-size: 26px;
+	font-family: '微软雅黑';
+	opacity: 0.9;
+	filter: alpha(opacity: 90);
+}
+
+#welcome a:hover {
+	color: #FFF;
+}
